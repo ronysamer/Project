@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title >  Mobile Website </title>
+ <link rel="stylesheet" href="C:\Users\Dell\Desktop\Phonoo\signup.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+
+
+<div >
+
+    <p> Sign up</p>
+    <form  class="signup" method="post" action="phonoo.php" id="3">
+      <label for="r"> Firstname: </label>
+      <input type="text"  id="r" placeholder="Firstname" name="firstname" required><br><br>   
+      <label for="o"> Email: </label>
+      <input type="text" id="o"  placeholder="Email address" name="email"  required ><br><br>
+      <label for="5"> Password: </label>
+      <input type="password" id="5" placeholder="Password" name="pass"  required><br>
+       <br> <label for="6">Date:</label>
+          <input type="date" id="6" name="bday" required><br><br>
+      
+      <br>
+      <label> Gender: </label>
+       <label for="1"> Male</label>
+      <input  id="1" type="radio"  name="Male or Female"  value="Male" required>
+      <label for="2"> Female</label>
+      <input id="2" type="radio" name="Male or Female"  value="Female" required>
+       <br><br>
+       
+      <label for="selection"> City: </label>
+      <select id="selection" name="select" required>
+       <option value="0" selected disabled> city</option>
+       <option value="1">Tanta</option>
+       <option value="2">Cairo</option>
+       <option value="3">Alex</option>
+     </select>
+
+     <br><br>
+     <button type="submit" name="sub"> Submit</button> 
+
+
+   </form>
+ </div>

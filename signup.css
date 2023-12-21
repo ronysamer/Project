@@ -1,0 +1,73 @@
+
+body{
+    background-image: url(c:\Users\Dell\Pictures\4.png);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 22px;
+    color: White;
+    align-items: center;
+    
+}
+p{
+    color: gold;
+   font-size: 80px;
+   font-family: 'Ephesis', cursive;
+   font-family: 'Pacifico', cursive;
+}
+.form1{
+    background:rgba(0,0,0,0.6);
+    padding: 24px;
+    margin-top:0px;
+    width: 28%;
+    position: absolute;
+    left:34%;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+input{
+    width: 330px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+}
+input[type="text"]{
+    font-size: 18px;
+}
+input[type="email"]{
+    font-size: 18px;
+}
+input[type="password"]{
+    font-size: 18px;
+}
+button[type="submit"]{
+    font-size: 20px;
+    height: 40px;
+    background-color: #00FF7F;
+
+}
+
+button[type="submit"]:hover{
+    color:white;	
+    background-color: blue;	
+}
+select{
+    size:400px;
+    height: 30px;
+    width: 252px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+input[type="radio"]
+{
+    font-size: 14px;
+    size: 6px;
+    height:10px;
+}
+label{
+    color: gold;
+    font-size: 50px;
+    
+}

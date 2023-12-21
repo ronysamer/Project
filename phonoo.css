@@ -1,0 +1,384 @@
+*{
+
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+   background-color:grey;
+    
+}
+
+.container{
+  background-color: grey;
+  min-height: 100 vh;
+  width: 100%;
+
+}
+
+header{
+
+ display: flex;
+ justify-content: space-between;
+ width: 80%;
+ margin: auto;
+ align-items: center;
+ padding: 20px 0;
+ font-size: x-large;
+
+
+
+}
+h1{
+
+   color: gold;
+   font-size: 80px;
+   font-family: 'Ephesis', cursive;
+   font-family: 'Pacifico', cursive;
+
+}
+ul li{
+
+ display: inline-block;
+ list-style: none;
+
+}
+ul li a {
+
+   color: gold;
+   text-decoration: none;
+   margin: 0 10px;
+
+   cursor: pointer;
+}
+div.up{
+   cursor: pointer;
+   color: gold;
+
+}
+
+
+
+
+ 
+ .container2{
+
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ margin: auto;
+  padding: 20px 0;
+
+ 
+ 
+ 
+
+ }
+  .container2 div.d:hover{
+
+   transform: scale(1.1);
+
+  }
+  .container2 div.e:hover{
+
+   transform: scale(1.1);
+
+  }
+  .container2 div.f:hover{
+
+   transform: scale(1.1);
+
+  }
+  .container2 div.d {
+
+   transition: 0.4s;
+   cursor: pointer;
+  }
+ 
+  .container2 div.e{
+
+   transition: 0.4s;
+   cursor: pointer;
+  }
+ 
+  .container2 div.f{
+
+   transition: 0.4s;
+   cursor: pointer;
+  }
+ 
+div.d{
+
+ border: 1px solid  gold;
+ border-radius: 10px 20px;
+ margin: 8px;
+ padding: 8px;
+ width: 250px;
+ align-items: center;
+ box-shadow: #E6AF2E;
+ text-align: center;
+ 
+
+
+}
+.d h5{
+   
+ margin: 0;
+ padding:  5px 0;
+ color: white;
+ font-size: medium;
+ font-weight: bold;
+
+
+}
+ .d p{
+
+    margin: 0;
+    padding:  5px 0;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+   
+ }
+ div.e{
+
+
+   border: 1px solid gold;
+   border-radius: 10px 20px;
+   margin: 8px;
+   padding: 8px;
+   width: 250px;
+  align-items: center;
+  text-align: center;
+  box-shadow: #E6AF2E;
+    
+
+
+ }
+ .e p{
+
+    margin: 0;
+    padding:  5px 0;
+    color: white;
+    font-size:  medium;
+    font-weight: bold;
+   
+ }
+.e h5{
+
+    margin: 0;
+    padding:  5px 0;
+    color: white;
+    font-size:  medium;
+    font-weight: bold;
+   
+
+}
+
+    
+ 
+ 
+
+.content{
+
+   
+  display: flex;
+  justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   align-items: center;
+   padding: 20px 0;
+   font-size: x-large;
+
+  
+  
+
+}
+p{ 
+   margin: 0;
+   padding:  5px 0;
+   color: burlywood;
+   font-size: xx-large;
+   font-weight: bold;
+  text-align: center;
+  
+  
+
+
+
+}
+
+
+    
+  label{
+
+    margin: 0;
+    padding:  5px 0;
+    color: burlywood;
+    font-size: xx-large;
+    font-weight: bold;
+    
+
+  }
+
+
+ select{
+
+    width: 200px;
+    color: white;
+    margin-right: 100px;
+    
+}
+.back{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+    font-size: x-large;
+
+  }
+
+
+    div.g{
+
+    
+
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+   }
+   .g h4{
+   
+    margin: 0;
+    padding:  5px 0;
+    color: #E6AF2E;
+    font-size: xx-large;
+    font-weight: bold;
+
+   
+   }
+    .g h3{
+   
+       margin: 0;
+       padding:  5px 0;
+       color: white ;
+       font-size: xx-large;
+       font-weight: bold;
+    
+      }
+      div.h{
+
+    
+        
+        margin: 10px;
+        padding: 10px;
+        width: 250px;
+       
+        align-items: center;
+       }
+       .h h4{
+       
+        margin: 0;
+        padding:  2px 0;
+        color: #E6AF2E;
+        font-size: xx-large;
+        font-weight: bold;
+       text-align: center;
+       
+       }
+        .h h3{
+       
+           margin: 0;
+           padding:  2px 0;
+           color: white;
+           font-size: large;
+           font-weight: bold;
+          text-align: center;
+        }
+         div.i{
+
+            
+    
+            margin: 10px;
+            padding: 10px;
+            width: 250px;
+            
+            
+            align-items: center;
+           }
+           .i h4{
+           
+            margin: 0;
+            padding:  5px 0;
+            color: #E6AF2E;
+            font-size: xx-large;
+            font-weight: bold;
+           text-align:center ;
+           
+           }
+            .i h3{
+           
+               margin: 0;
+               padding:  5px 0;
+               color: white ;
+               font-size: large;
+               font-weight: bold;
+              text-align: center;
+            }
+
+            p.t{
+
+                border: 15px solid  #F5D061;
+                border-radius: 30% 30% 80% 80%;
+                margin: 10px;
+                padding: 10px;
+                width: 350px;
+                text-transform: uppercase;
+                font-style: italic;
+                font-weight: bold ;
+                color: burlywood;
+                font-size: x-large;
+                
+                
+                
+
+
+
+            }
+            div.capital{
+             width: 1500px;
+             height: 500px;
+             border: 1px solid  silver;
+             box-shadow: 1px 1px 12px black;
+             background-image: url(https://www.top10mobiles.info/images/top10mobiles.com/slider/416743900202309210719.jpg);
+             animation-name: cco;
+             animation-duration: 4s;
+             
+             animation-iteration-count: infinite;
+
+             
+
+
+
+
+            }    
+            @keyframes cco {
+               10%{
+                  background-image: url(https://www.top10mobiles.info/images/top10mobiles.com/slider/229167945202309210719.jpg);
+               }
+               30%{
+                  background-image: url(https://images.mobileshop.eu/1696930217/banner/Screenshot_3.jpg);
+               }
+               50%{
+                  background-image: url(https://www.top10mobiles.info/images/top10mobiles.com/slider/416743900202309210719.jpg);
+               }
+               70%{
+                  background-image: url(https://www.top10mobiles.info/images/top10mobiles.com/slider/229167945202309210719.jpg);
+
+               }
+            }     
+           
+         
